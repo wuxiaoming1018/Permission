@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.ming.lib_permission" />
+    package="com.android.ming.lib_permission">
+
+    <application>
+        <activity
+            android:name=".PermissionActivity"
+            android:theme="@style/translucent" />
+    </application>
+</manifest>
